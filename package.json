@@ -1,0 +1,26 @@
+{
+  "name": "rnovel-api",
+  "version": "1.0.0",
+  "description": "rnovel api",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
+  },
+  "keywords": [
+    "novel",
+    "manhwa",
+    "manhua"
+  ],
+  "author": "sz",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {}
+}
